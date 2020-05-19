@@ -1,0 +1,70 @@
+.square{
+    border-radius: 15%;
+    width:30%;
+    padding-bottom: 30%;
+    background: green;
+    margin: 1.66%; 
+    float:left;
+    transition: background 0.4s;
+    -webkit-transition: background 0.4s;
+    -moz-transition: background 0.4s;
+}
+.arrange{
+    text-align:center;
+    background-color: white;
+    height: 30px;
+}
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+}
+body{
+    background-color: #232323;
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
+}
+#colorDisplay{
+    font-size: 200%;
+}
+button{
+    font-family: "Montserrat", "Avenir";
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    height:100%;
+    transition: all 0.3s;
+    outline: none;
+}
+#message{
+    color:black;
+    display:inline-block;
+    width:20%;  
+    text-align:center;
+}
+h1{
+    color:white;
+    text-transform: uppercase;
+    text-align:center;
+    background: steelblue;
+    line-height: 1.1;
+    padding: 20px 0;
+    margin:0;
+    font-weight: normal;
+}
+.selected{
+    color: white;
+    background-color: steelblue;
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+    background-color: steelblue;
+    cursor: pointer;    
+}
+#easy{
+    cursor: pointer;
+}
